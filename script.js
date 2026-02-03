@@ -242,3 +242,7 @@ yesBtn.addEventListener("click", () => {
 
 resetBtn?.addEventListener("click", resetAll);
 resetBtn2?.addEventListener("click", resetAll);
+
+// Show countdown immediately on page load
+countdownBox?.classList.remove("hidden");
+startCountdown();
