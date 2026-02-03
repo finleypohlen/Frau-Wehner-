@@ -229,16 +229,16 @@ noBtn.addEventListener("click", () => {
 });
 
 yesBtn.addEventListener("click", () => {
+  console.log('yes clicked');
   haptic();
 
-  question.textContent = "yaaaayyyy";
+  if (question) question.textContent = "yaaaayyyy";
 
   // show the result section (text is already "Freu ich mich.")
-  result.classList.remove("hidden");
-  countdownBox.classList.add("hidden");
+  result?.classList.remove("hidden");
+  countdownBox?.classList.add("hidden");
   sprinkle();
 });
 
 resetBtn?.addEventListener("click", resetAll);
 resetBtn2?.addEventListener("click", resetAll);
-
