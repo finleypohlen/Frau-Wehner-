@@ -33,7 +33,7 @@ let changedOnce = false;     // start EN, after first No -> DE
 const EN = {
   question: "Will you be my Valentine?",
   countdownTitle: "Countdown to Feb 14",
-  countdownNote: "Bis bald 🙂",
+  countdownNote: "Bis bald ",
   labels: { d: "days", h: "hours", m: "minutes", s: "seconds" },
   yesTitle: "yaaaayyyy",
   yesText: "Freu ich mich."
@@ -42,7 +42,7 @@ const EN = {
 const DE = {
   labels: { d: "Tage", h: "Stunden", m: "Minuten", s: "Sekunden" },
   countdownTitle: "Countdown bis zum 14. Februar",
-  countdownNote: "Bis bald 🙂",
+  countdownNote: "Bis bald ",
   yesTitle: "yaaaayyyy",
   yesText: "Freu ich mich.",
   messages: [
